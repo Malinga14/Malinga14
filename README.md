@@ -21,6 +21,7 @@
 </p>
 
 - 📫 How to reach me **malingapasindu14@gmail.com**
+- My personal website **https://www.sithcoder.dev**
 
 - ⚡ Fun fact **I think i'm batman.**
 
