@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="96" viewBox="0 0 840 96" role="img" aria-label="Next.js SSG. Production-ready static template with WebGL plasma effects. Built with Next.js 15 · React 19 Tailwind CSS 4 · WebGL. 2026."><title>Next.js SSG. Production-ready static template with WebGL plasma effects. Built with Next.js 15 · React 19 Tailwind CSS 4 · WebGL. 2026.</title><style>
+:root{--out:cubic-bezier(0.23,1,0.32,1);--io:cubic-bezier(0.77,0,0.175,1)}
+text{font-family:'Helvetica Neue', Helvetica, Arial, Inter, system-ui, sans-serif;fill:#E6EDF3;font-kerning:normal}
+.m{fill:#7D8590}.a{fill:#FF4F2B}
+.draw{transform-box:fill-box;transform-origin:left center;animation:draw 1100ms var(--io) both}
+.rise{animation:rise 700ms var(--out) both}
+.up{animation:up 1000ms var(--out) both}
+@keyframes draw{from{transform:scaleX(0)}}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+@keyframes up{from{transform:translateY(190px)}}
+</style><rect width="840" height="96" fill="#0D1117"/><text x="32" y="42" font-size="13" font-weight="400" class="m">02</text><text x="98" y="44" font-size="20" font-weight="700" letter-spacing="-0.3">Next.js SSG</text><text x="296" y="42" font-size="14" font-weight="400" class="m">Production-ready static template</text><text x="296" y="63" font-size="14" font-weight="400" class="m">with WebGL plasma effects.</text><text x="560" y="42" font-size="13" font-weight="400">Next.js 15 · React 19</text><text x="560" y="63" font-size="13" font-weight="400">Tailwind CSS 4 · WebGL</text><text x="786" y="42" font-size="13" font-weight="400" class="m" text-anchor="end">2026</text><text x="808" y="43" font-size="15" font-weight="400" class="a" text-anchor="end">↗</text><rect x="32" y="95" width="776" height="1" fill="#30363D"/></svg>

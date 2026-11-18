@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="174.4" height="72" viewBox="0 0 174.4 72" role="img" aria-label="Instagram: @__malii__14"><title>Instagram: @__malii__14</title><style>
+:root{--out:cubic-bezier(0.23,1,0.32,1);--io:cubic-bezier(0.77,0,0.175,1)}
+text{font-family:'Helvetica Neue', Helvetica, Arial, Inter, system-ui, sans-serif;fill:#E6EDF3;font-kerning:normal}
+.m{fill:#7D8590}.a{fill:#FF4F2B}
+.draw{transform-box:fill-box;transform-origin:left center;animation:draw 1100ms var(--io) both}
+.rise{animation:rise 700ms var(--out) both}
+.up{animation:up 1000ms var(--out) both}
+@keyframes draw{from{transform:scaleX(0)}}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+@keyframes up{from{transform:translateY(190px)}}
+</style><rect width="174.4" height="72" fill="#0D1117"/><rect x="0" y="0" width="142.4" height="1" fill="#E6EDF3"/><text x="0" y="28" font-size="15" font-weight="700">Instagram</text><text x="0" y="48" font-size="12" font-weight="400" class="m">@__malii__14</text><text x="142.4" y="29" font-size="15" font-weight="400" class="a" text-anchor="end">↗</text></svg>
