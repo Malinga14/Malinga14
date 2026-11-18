@@ -6,13 +6,7 @@
 
 <img src="./assets/capabilities.svg" width="100%" alt="02 Capabilities. Frontend: Angular, Next.js, React, TypeScript, Tailwind CSS, Zustand. Backend and AI: Java, Spring Boot, Node.js, Express, MySQL, AI integration. Platforms and tools: Flutter, Electron, JavaFX, WebGL, Git, Figma." />
 
-<img src="./assets/work.svg" width="100%" alt="03 Selected work" />
-<a href="https://github.com/Malinga14/sendra"><img src="./assets/work-sendra.svg" width="100%" alt="01 Sendra: standalone email API for contact-form submissions. TypeScript, Express, Resend. 2025." /></a>
-<a href="https://github.com/Malinga14/NEXTJS-SSG-TEMPLATE"><img src="./assets/work-ssg.svg" width="100%" alt="02 Next.js SSG: production-ready static template with WebGL plasma effects. Next.js 15, React 19, Tailwind CSS 4, WebGL. 2026." /></a>
-<a href="https://github.com/Malinga14/board-app"><img src="./assets/work-board.svg" width="100%" alt="03 Board: kanban dashboard with live search and persistent multi-board state. Next.js 15, TypeScript, Zustand, Tailwind CSS. 2025." /></a>
-<a href="https://github.com/Malinga14/Level-Up-AL-Backend"><img src="./assets/work-levelup.svg" width="100%" alt="04 Level Up AL: full-stack platform with a secured REST API and an Angular client. Angular 18, Spring Boot 3, MySQL, JPA, OpenAPI. 2025." /></a>
-
-<img src="./assets/contact.svg" width="100%" alt="04 Contact. Let's build something considered. hello@malingapasindu.com" />
+<img src="./assets/contact.svg" width="100%" alt="03 Contact. Let's build something considered. hello@malingapasindu.com" />
 
 <p><a href="https://malingapasindu.com"><img src="./assets/link-website.svg" width="22.66%" alt="Website: malingapasindu.com" /></a><a href="mailto:hello@malingapasindu.com"><img src="./assets/link-email.svg" width="18.85%" alt="Email hello@malingapasindu.com" /></a><a href="https://linkedin.com/in/malinga-pasindu"><img src="./assets/link-linkedin.svg" width="18.85%" alt="LinkedIn" /></a><a href="https://x.com/malinga14"><img src="./assets/link-x.svg" width="18.85%" alt="X / Twitter" /></a><a href="https://instagram.com/__malii__14"><img src="./assets/link-instagram.svg" width="20.76%" alt="Instagram" /></a></p>
 

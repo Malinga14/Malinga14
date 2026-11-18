@@ -7,5 +7,12 @@ text{font-family:'Helvetica Neue', Helvetica, Arial, Inter, system-ui, sans-seri
 .up{animation:up 1000ms var(--out) both}
 @keyframes draw{from{transform:scaleX(0)}}
 @keyframes rise{from{opacity:0;transform:translateY(8px)}}
+.lift{transform-box:fill-box;animation:lift 900ms var(--out) both}
+.nudge{animation:nudge 800ms var(--out) both}
 @keyframes up{from{transform:translateY(190px)}}
-</style><rect width="840" height="96" fill="#0D1117"/><rect x="32" y="32" width="776" height="1" fill="#30363D"/><text x="32" y="66" font-size="12" font-weight="400">© 2026 Malinga Pasindu</text><text x="296" y="66" font-size="12" font-weight="400" class="m">Set in Helvetica Neue on a 12-column grid.</text><text x="808" y="66" font-size="12" font-weight="400" class="m" text-anchor="end">Probably Batman.</text></svg>
+@keyframes lift{from{transform:translateY(110%)}}
+@keyframes nudge{from{opacity:0;transform:translate(-6px,6px)}}
+@keyframes fade{from{opacity:0}}
+@media (prefers-reduced-motion:reduce){
+ .draw,.rise,.up,.lift,.nudge{animation-name:fade;animation-duration:400ms}}
+</style><rect width="840" height="96" fill="#0D1117"/><rect x="32" y="32" width="776" height="1" fill="#30363D" class="draw" style="animation-delay:0ms"/><text x="32" y="66" font-size="12" font-weight="400" class="rise" style="animation-delay:240ms">© 2026 Malinga Pasindu</text><text x="296" y="66" font-size="12" font-weight="400" class="m rise" style="animation-delay:300ms">Set in Helvetica Neue on a 12-column grid.</text><text x="808" y="66" font-size="12" font-weight="400" class="m rise" text-anchor="end" style="animation-delay:360ms">Probably Batman.</text></svg>

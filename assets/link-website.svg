@@ -7,5 +7,12 @@ text{font-family:'Helvetica Neue', Helvetica, Arial, Inter, system-ui, sans-seri
 .up{animation:up 1000ms var(--out) both}
 @keyframes draw{from{transform:scaleX(0)}}
 @keyframes rise{from{opacity:0;transform:translateY(8px)}}
+.lift{transform-box:fill-box;animation:lift 900ms var(--out) both}
+.nudge{animation:nudge 800ms var(--out) both}
 @keyframes up{from{transform:translateY(190px)}}
-</style><rect width="190.4" height="72" fill="#0D1117"/><rect x="32" y="0" width="142.4" height="1" fill="#E6EDF3"/><text x="32" y="28" font-size="15" font-weight="700">Website</text><text x="32" y="48" font-size="12" font-weight="400" class="m">malingapasindu.com</text><text x="174.4" y="29" font-size="15" font-weight="400" class="a" text-anchor="end">↗</text></svg>
+@keyframes lift{from{transform:translateY(110%)}}
+@keyframes nudge{from{opacity:0;transform:translate(-6px,6px)}}
+@keyframes fade{from{opacity:0}}
+@media (prefers-reduced-motion:reduce){
+ .draw,.rise,.up,.lift,.nudge{animation-name:fade;animation-duration:400ms}}
+</style><rect width="190.4" height="72" fill="#0D1117"/><rect x="32" y="0" width="142.4" height="1" fill="#E6EDF3" class="draw" style="animation-delay:0ms"/><text x="32" y="28" font-size="15" font-weight="700" class="rise" style="animation-delay:200ms">Website</text><text x="32" y="48" font-size="12" font-weight="400" class="m rise" style="animation-delay:260ms">malingapasindu.com</text><text x="174.4" y="29" font-size="15" font-weight="400" class="a nudge" text-anchor="end" style="animation-delay:380ms">↗</text></svg>

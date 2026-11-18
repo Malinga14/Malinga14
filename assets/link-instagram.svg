@@ -7,5 +7,12 @@ text{font-family:'Helvetica Neue', Helvetica, Arial, Inter, system-ui, sans-seri
 .up{animation:up 1000ms var(--out) both}
 @keyframes draw{from{transform:scaleX(0)}}
 @keyframes rise{from{opacity:0;transform:translateY(8px)}}
+.lift{transform-box:fill-box;animation:lift 900ms var(--out) both}
+.nudge{animation:nudge 800ms var(--out) both}
 @keyframes up{from{transform:translateY(190px)}}
-</style><rect width="174.4" height="72" fill="#0D1117"/><rect x="0" y="0" width="142.4" height="1" fill="#E6EDF3"/><text x="0" y="28" font-size="15" font-weight="700">Instagram</text><text x="0" y="48" font-size="12" font-weight="400" class="m">@__malii__14</text><text x="142.4" y="29" font-size="15" font-weight="400" class="a" text-anchor="end">↗</text></svg>
+@keyframes lift{from{transform:translateY(110%)}}
+@keyframes nudge{from{opacity:0;transform:translate(-6px,6px)}}
+@keyframes fade{from{opacity:0}}
+@media (prefers-reduced-motion:reduce){
+ .draw,.rise,.up,.lift,.nudge{animation-name:fade;animation-duration:400ms}}
+</style><rect width="174.4" height="72" fill="#0D1117"/><rect x="0" y="0" width="142.4" height="1" fill="#E6EDF3" class="draw" style="animation-delay:280ms"/><text x="0" y="28" font-size="15" font-weight="700" class="rise" style="animation-delay:480ms">Instagram</text><text x="0" y="48" font-size="12" font-weight="400" class="m rise" style="animation-delay:540ms">@__malii__14</text><text x="142.4" y="29" font-size="15" font-weight="400" class="a nudge" text-anchor="end" style="animation-delay:660ms">↗</text></svg>
